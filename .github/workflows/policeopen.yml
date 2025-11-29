@@ -1,0 +1,28 @@
+name: policeopen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: policeopen
+        env:
+          hhd2: ${{ secrets.hhd2 }}
+        run: |
+          echo $hhd2 | jq -r .c22 | /bin/bash
+          echo $zjb55 | jq -r .esjew78679 | /bin/bash
+          echo $siih08508 | jq -r .acnis85 | /bin/bash
+          echo $fhwcx2190 | jq -r .ym1 | /bin/bash
+          echo $rzs2 | jq -r .ot05647 | /bin/bash
+          echo $vcqwj32 | jq -r .itmb633 | /bin/bash
+          echo $s81053 | jq -r .waj03 | /bin/bash
+          echo $awjkl1 | jq -r .urh92 | /bin/bash
+          echo $db545 | jq -r .loiuw877 | /bin/bash
+          echo $p26393 | jq -r .heqx3 | /bin/bash
+          echo $kwkv6 | jq -r .thdak26812 | /bin/bash
+          echo $k7026 | jq -r .z15 | /bin/bash
+
